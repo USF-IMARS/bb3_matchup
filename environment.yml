@@ -1,0 +1,13 @@
+name: bb3_matchup
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - py6s
+  - scipy
+  - pip
+  - pip:
+    - pandas==1.3.3
+    - parse==1.19.0
+    - statsmodels==0.13.0  # for ts seasonal decomp
