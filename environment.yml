@@ -12,3 +12,4 @@ dependencies:
     - parse==1.19.0
     - statsmodels==0.13.0  # for ts seasonal decomp
     - pytest==6.2.5
+    - plotly==5.4.0
